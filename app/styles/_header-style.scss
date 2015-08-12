@@ -1,1 +1,9 @@
 // Partial which contains styles for the header
+.navbar-fixed-top {
+  min-height: 222px;
+  border: 1px solid black;
+}
+
+.navbar-inner {
+  background: transparent;
+}
