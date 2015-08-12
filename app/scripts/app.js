@@ -39,4 +39,8 @@ angular
         url: '/contact',
         templateUrl: 'views/contact.html'
       })
+      .state('menuState', {
+        url: '/menu',
+        templateUrl: 'views/menu.html'
+      })
   });
