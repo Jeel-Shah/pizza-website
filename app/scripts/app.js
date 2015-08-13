@@ -37,7 +37,9 @@ angular
       })
       .state('contactState', {
         url: '/contact',
-        templateUrl: 'views/contact.html'
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
       })
       .state('menuState', {
         url: '/menu',
