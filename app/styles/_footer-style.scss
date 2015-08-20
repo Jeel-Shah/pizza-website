@@ -8,6 +8,25 @@
   width: 100%;
 }
 
+// testing
+.col-md-3 {
+  border: 1px solid red;
+}
+
+tr td:last-child {
+  padding-left: 25px;
+}
+
+#footer-row {
+  margin-top: 135px;
+  border: 1px solid blue;
+  height: 200px;
+}
+
+.footer-menu {
+  list-style-type: none;
+}
+
 #centerMe {
   text-align: center;
 }
