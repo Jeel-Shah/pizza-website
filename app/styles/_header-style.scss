@@ -17,8 +17,27 @@
   .navbar-nav > li {
     float: none;
     display: inline-block;
+    a {
+      color: white;
+      font-family: 'Langdon';
+      &:hover {
+        background: none;
+      }
+
+    }
+
   }
-  .navbar-nav > li.navbar-right {
-    float: right !important;
+  // .navbar-nav > li.navbar-right {
+  //   float: right !important;
+  // }
+
+  #logo {
+    border: 2px solid black;
+    margin-bottom: 20px;
   }
+
+  .order-heading {
+    color: white;
+  }
+
 }

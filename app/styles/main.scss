@@ -3,6 +3,29 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+// Import fonts
+@font-face {
+  font-family: 'Langdon';
+  src: url('../images/fonts/Langdon/Langdon.otf');
+}
+
+@font-face {
+  font-family: 'BeachNine';
+  src: url('../images/fonts/BeachNine/BeachNine-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'BeachNine';
+  src: url('../images/fonts/BeachNine/BeachNine-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'BeachNine';
+  src: url('../images/fonts/BeachNine/BeachNine-Light.ttf');
+  font-weight: lighter;
+}
+
 // Import sass partials
 @import "_header-style.scss";
 @import "_content-style.scss";
@@ -21,6 +44,11 @@ html {
 
 body {
   margin-bottom: 422px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
 }
 
 /* Responsive: Portrait tablets and up */

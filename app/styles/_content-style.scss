@@ -1,5 +1,4 @@
 .content {
-  margin-top: 222px;
   border: 1px solid black;
   height: 2000px;
 }
@@ -10,4 +9,13 @@
 
 .actionHeader {
   text-align: center;
+}
+
+.board {
+  background-image: url('../images/assets/board.jpg');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
