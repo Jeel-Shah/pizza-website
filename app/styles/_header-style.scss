@@ -8,29 +8,6 @@
   width: 100%;
 }
 
-.navbar-inner {
-  background: transparent;
-}
-
-@media (min-width: 768px) {
-  .navbar-nav {
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: -50px;
-    margin-top: -95px;
-  }
-
-  .link{
-    a:hover{
-       background: none;
-      -webkit-stroke-width: 5.3px;
-      -webkit-stroke-color: #FFFFFF;
-      -webkit-fill-color: #FFFFFF;
-      text-shadow: 1px 0px 20px white;
-    }
-
-  }
 
   #facebook{
     width: 50px;
@@ -42,18 +19,47 @@
     padding-top: 85px;
   }
 
+#phoneNumber{
+  float: right;
+  color: white;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  padding-top: 85px;
+  margin-right: 75px;
+}
+
+#orderOnline{
+  color: white;
+  background: #fb4848;
+  border: none;
+  margin-top: 125px;
+  width: 200px;
+  color: white;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+  float:right;
+  margin-right: -125px;
+  }
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: -50px;
+    margin-top: -135px;
+  }
+
   .navbar-nav > li {
     float: none;
     display: inline-block;
     a {
-      color: white;
       font-family: 'BenchNine', sans-serif;
+      color: white;
       font-size:25px;
-      &:hover {
+      &:hover {;
       background: none;
-      -webkit-stroke-width: 5.3px;
-      -webkit-stroke-color: #FFFFFF;
-      -webkit-fill-color: #FFFFFF;
       text-shadow: 1px 0px 20px white;
       }
 
@@ -64,9 +70,6 @@
   //   float: right !important;
   // }
 
-  #logo {
-    margin-bottom: 0px;
-  }
 
   .order-heading {
     color: white;

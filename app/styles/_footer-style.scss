@@ -5,24 +5,41 @@
   width: 100%;
   background: #333333;
   color: white;
+  border: 1px solid black;
 }
 
 // testing
+
 .col-md-3 {
-  border: 1px solid red;
+  color: white;
+  color:white;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
 }
+
 
 tr td:last-child {
   padding-left: 25px;
 }
 
-// #websiteName {
-//   color: white;
-// }
+#websiteName {
+  color: white;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 50px;
+}
+#storeHours{
+  font-size: 40px;
+}
+.footerHours {
+  color:white;
+  tr > td{
+    padding-bottom: 15px;
+  }
+}
+
 
 #footer-row {
-  margin-top: 135px;
-  border: 1px solid blue;
+  margin-top: 105px;
   height: 200px;
 }
 
@@ -35,7 +52,11 @@ tr td:last-child {
   background: #fb4848;
   border: none;
   margin-top: 20px;
-  width: 75px;
+  width: 100px;
+  color: white;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
 }
 
 #connectField {
@@ -44,7 +65,9 @@ tr td:last-child {
   padding-left: 5px;
   color: black;
   width: 250px;
-  height: 35px;
+  height: 50px;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
 }
 
 input:focus{
@@ -85,12 +108,7 @@ input:focus{
 
 }
 
-.footerHours {
-  tr > td{
-    padding-bottom: 15px;
-  }
-}
-
 #centerMe {
   text-align: center;
+  margin-top: 20px;
 }

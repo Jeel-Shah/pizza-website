@@ -1,6 +1,6 @@
 .content {
   border: 1px solid black;
-  height: 2000px;
+  height: 100%;
 }
 
 .container {
@@ -31,7 +31,7 @@
 }
 
 #pizza{
-  border: 0px solid black;
+  border: 1px solid black;
   background-image: url('../images/assets/board-3.jpg');
   height: 647px;
   margin-top: -30px;
@@ -45,7 +45,7 @@ margin-bottom: -175px;
 }
 
 #salad{
-  border: 0px solid black;
+  border: 1px solid black;
   background-image: url('../images/assets/board-2.jpg');
 }
 #saladpicture{
@@ -59,7 +59,7 @@ margin-bottom: -175px;
 }
 #wingspicture{
   padding-top: 36px;
-  padding-right: 20px;
+  padding-left: 15px;
 }
 #wingstext{
 padding-top: 25px;
