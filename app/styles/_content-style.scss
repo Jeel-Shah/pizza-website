@@ -12,13 +12,37 @@
   text-align: center;
 }
 
-.board {
-  background-image: url('../images/assets/board.jpg');
-  height: 100vh;
+.board{
+  height: 50vh;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#pizza{
+  border: 1px solid black;
+  background-image: url('../images/assets/board.jpg');
+  height: 65vh;
+  padding-top: 100px;
+  margin-top: -30px;
+}
+
+#salad{
+  border: 1px solid black;
+  background-image: url('../images/assets/salad_1.jpg');
+
+}
+
+#wings{
+  border: 1px solid black;
+  background-image: url('../images/assets/wings_1.jpg');
+}
+
+#drinks{
+  border: 1px solid black;
+  background-image: url('../images/assets/drink.jpg');
 }
 
 .contact-us{
