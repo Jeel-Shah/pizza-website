@@ -4,6 +4,8 @@
   border: 1px solid black;
   background-color: #fff;
   background-color: rgba(0,0,0,0.5);
+  padding-left: 45px;
+  width: 100%;
 }
 
 .navbar-inner {
@@ -21,25 +23,30 @@
     display: inline-block;
     a {
       color: white;
-      font-family: 'Langdon';
+      font-family: 'BenchNine', sans-serif;
+      font-size:25px;
       &:hover {
         background: none;
+      -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px white;
       }
 
     }
-
   }
+
   // .navbar-nav > li.navbar-right {
   //   float: right !important;
   // }
 
   #logo {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   .order-heading {
     color: white;
-    font-family: 'BeachNine';
+    font-family: 'BeachNine'
   }
 
 }

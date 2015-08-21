@@ -10,22 +10,6 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 
 @font-face {
-  font-family: "BenchNine";
-  src: url('../images/fonts/BenchNine/BenchNine-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'BenchNine';
-  src: url('../images/fonts/BenchNine/BenchNine-Bold.ttf');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'BenchNine';
-  src: url('../images/fonts/BenchNine/BenchNine-Light.ttf');
-  font-weight: lighter;
-}
-@font-face {
   font-family: 'LobsterTwo';
   src: url('../images/fonts/LobsterTwo/LobsterTwo-Regular.tff');
 }
@@ -46,6 +30,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "_header-style.scss";
 @import "_content-style.scss";
 @import "_footer-style.scss";
+@import url(http://fonts.googleapis.com/css?family=BenchNine);
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
