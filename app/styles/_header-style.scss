@@ -16,8 +16,32 @@
   .navbar-nav {
     width: 100%;
     text-align: center;
-    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-top: -50px;
+    margin-top: -95px;
   }
+
+  .link{
+    a:hover{
+       background: none;
+      -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px white;
+    }
+
+  }
+
+  #facebook{
+    width: 50px;
+    padding-top: 85px;
+  }
+
+  #twitter{
+    width: 50px;
+    padding-top: 85px;
+  }
+
   .navbar-nav > li {
     float: none;
     display: inline-block;
@@ -26,7 +50,7 @@
       font-family: 'BenchNine', sans-serif;
       font-size:25px;
       &:hover {
-        background: none;
+      background: none;
       -webkit-stroke-width: 5.3px;
       -webkit-stroke-color: #FFFFFF;
       -webkit-fill-color: #FFFFFF;
