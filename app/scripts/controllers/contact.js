@@ -7,6 +7,13 @@ angular.module('pizzaWebsiteApp')
         latitude: 45,
         longitude: -73
       },
-      zoom: 8
+      zoom: 8,
+      options: {
+        scrollwheel: false,
+        navigationControl: false,
+        mapTypeControl: false,
+        scaleControl: false,
+        draggable: false
+      }
     };
 });
