@@ -12,39 +12,55 @@
   text-align: center;
 }
 
-
-
-.board {
-  background-image: url('../images/assets/board.jpg');
-  height: 100vh;
+.board{
+  height: 500px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.angular-google-map-container { height: 400px; }
+#pizza{
+  border: 0px solid black;
+  background-image: url('../images/assets/board.jpg');
+  height: 647px;
+  margin-top: -30px;
+}
+#pizzapicture{
+  padding-top: 193px;
+}
+#pizzatext{
+padding-top: 160px;
+margin-bottom: -175px;
+font-size: 50px;
+font-family: 'LobsterTwo';
+font-weight: bold;
+}
+
+#salad{
+  border: 0px solid black;
+  background-image: url('../images/assets/salad_1.jpg');
+
+}
+
+#wings{
+  border: 1px solid black;
+  background-image: url('../images/assets/wings_1.jpg');
+}
+
+#drinks{
+  border: 1px solid black;
+  background-image: url('../images/assets/drink.jpg');
+}
+
+.contact-us{
+  margin-top: 40px;
+}
 
 .form-control {
   width:65%;
 }
-
-.center-block {
-  float: none;
-}
-
-#map {
-  height: 300px;
-}
-
-#slice-section {
-  height: 20vh;
-}
-
-#contact-us{
-  margin-top: 40px;
-}
-
 
 #store-hours {
   margin-top: 20px;
