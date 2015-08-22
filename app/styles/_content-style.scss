@@ -23,6 +23,8 @@
   align-items: center;
 }
 
+.angular-google-map-container { height: 400px; }
+
 .form-control {
   width:65%;
 }
@@ -31,6 +33,13 @@
   float: none;
 }
 
+#map {
+  height: 300px;
+}
+
+#slice-section {
+  height: 20vh;
+}
 
 #contact-us{
   margin-top: 40px;
