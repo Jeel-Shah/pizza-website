@@ -130,6 +130,31 @@
 
 }
 
+#location-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url('../images/assets/board-4.jpg');
+  height: 250px;
+
+  p {
+    font-family: 'BenchNine';
+    font-size: 24px;
+    color: white;
+  }
+
+  h1 {
+    font-family: 'BenchNine';
+    font-size: 60px;
+    color: white;
+  }
+
+}
+
+#colorMeRed{
+  color: '#df4441';
+}
 
 #store-hours {
   margin-top: 20px;
