@@ -21,44 +21,41 @@
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-<div id='container'>
-  <!-- The header will also remain -->
-    <div class="header">
-      <nav class="navbar navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <a id="phoneNumber">519 888 9993</a>
-        <button type="submit" class="btn btn-default" id="orderOnline"> ORDER ONLINE </button>
-        <a class="link" href="https://www.facebook.com/pages/Orange-Flame/347192305478723?sk=timeline"  ><img src="../images/icons/Facebook.png" id="facebook"></a>
-        <a class="link" href="#/"  ><img src="../images/icons/Twitter.png" id="twitter"></a>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a ui-sref="menuState">MENU</a></li>
-            <li><a ui-sref="contactState">LOCATION</a></li>
-            <li><a class="active" ui-sref="homeState" id="logo"><img src="../images/logo.png"></a></li>
-            <li><a ui-sref="aboutState">WHO WE ARE</a></li>
-            <li><a ui-sref="contactState">CONTACT US</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <div id='container'>
+    <!-- The header will also remain -->
+      <div class="header">
+        <nav class="navbar navbar-fixed-top" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <a id="phoneNumber">519 888 9993</a>
+          <button type="submit" class="btn btn-default" id="orderOnline"> ORDER ONLINE </button>
+          <a class="link" href="https://www.facebook.com/pages/Orange-Flame/347192305478723?sk=timeline"  ><img src="../images/icons/Facebook.png" id="facebook"></a>
+          <a class="link" href="#/"  ><img src="../images/icons/Twitter.png" id="twitter"></a>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a ui-sref="menuState">MENU</a></li>
+              <li><a ui-sref="contactState">LOCATION</a></li>
+              <li><a class="active" ui-sref="homeState" id="logo"><img src="../images/logo.png"></a></li>
+              <li><a ui-sref="aboutState">WHO WE ARE</a></li>
+              <li><a ui-sref="contactState">CONTACT US</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 
-    <div class="content">
-      <div ui-view></div>
+      <div class="content">
+        <div ui-view></div>
+      </div>
     </div>
-</div>
     <!-- The footer will remain -->
     <div class="footer">
       <div ng-include="'views/partials/_footer-partial.html'"></div>
     </div>
-
-
-
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
        !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
@@ -84,6 +81,8 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -91,6 +90,8 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/contact.js"></script>
+    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
     <!-- endbuild -->
 </body>
 </html>

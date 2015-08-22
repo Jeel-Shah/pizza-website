@@ -30,24 +30,39 @@
   font-weight: bold;
 }
 
+.contact-us{
+  margin-top: 40px;
+}
+
+.form-control {
+  width:65%;
+}
+
+.angular-google-map-container {
+  height: 400px;
+}
+
 #pizza{
   border: 1px solid black;
   background-image: url('../images/assets/board-3.jpg');
   height: 647px;
   margin-top: -30px;
 }
+
 #pizzapicture{
   padding-top: 193px;
 }
+
 #pizzatext{
-padding-top: 160px;
-margin-bottom: -175px;
+  padding-top: 160px;
+  margin-bottom: -175px;
 }
 
 #salad{
   border: 1px solid black;
   background-image: url('../images/assets/board-2.jpg');
 }
+
 #saladpicture{
   padding-top: 37px;
   padding-right: 60px;
@@ -57,29 +72,40 @@ margin-bottom: -175px;
   border: 1px solid black;
   background-image: url('../images/assets/board-4.jpg');
 }
+
 #wingspicture{
   padding-top: 36px;
   padding-left: 15px;
 }
+
 #wingstext{
-padding-top: 25px;
-margin-bottom: -25px;
+  padding-top: 25px;
+  margin-bottom: -25px;
 }
 
 #drinks{
   border: 1px solid black;
   background-image: url('../images/assets/board-5.jpg');
 }
+
 #drinkspicture{
   padding-left: 35px;
 }
 
-.contact-us{
-  margin-top: 40px;
+#slice-section {
+  background-image: url('../images/assets/board-4.jpg');
+  height: 250px;
+  padding-top: 0;
+  h1 {
+    color: white;
+    font-family: 'BenchNine';
+    font-weight: bold;
+    font-size: 72px;
+  }
 }
 
-.form-control {
-  width:65%;
+#fullpizza {
+  background-image: url('../images/assets/fullpizza.jpg');
 }
 
 #store-hours {
