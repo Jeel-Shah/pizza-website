@@ -108,6 +108,29 @@
   background-image: url('../images/assets/fullpizza.jpg');
 }
 
+#main-header {
+  background-image: url('../images/assets/main-page-header.jpg');
+  margin-top: -30px;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .header-text {
+    padding-left: 15%;
+    padding-top: 15%;
+  }
+
+  h1 {
+    font-family: "BenchNine";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 72px;
+  }
+
+}
+
+
 #store-hours {
   margin-top: 20px;
 }
