@@ -12,6 +12,8 @@
   text-align: center;
 }
 
+
+
 .board {
   background-image: url('../images/assets/board.jpg');
   height: 100vh;
@@ -21,13 +23,19 @@
   align-items: center;
 }
 
-.contact-us{
-  margin-top: 40px;
-}
-
 .form-control {
   width:65%;
 }
+
+.center-block {
+  float: none;
+}
+
+
+#contact-us{
+  margin-top: 40px;
+}
+
 
 #store-hours {
   margin-top: 20px;
