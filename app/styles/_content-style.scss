@@ -1,6 +1,6 @@
 .content {
   border: 1px solid black;
-  height: 2000px;
+  height: 100%;
 }
 
 .container {
@@ -19,11 +19,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 50px;
+  font-family: 'LobsterTwo';
+  font-weight: bold;
+}
+
+.order-heading{
+  font-size: 50px;
+  font-family: 'LobsterTwo';
+  font-weight: bold;
 }
 
 #pizza{
-  border: 0px solid black;
-  background-image: url('../images/assets/board.jpg');
+  border: 1px solid black;
+  background-image: url('../images/assets/board-3.jpg');
   height: 647px;
   margin-top: -30px;
 }
@@ -33,25 +42,36 @@
 #pizzatext{
 padding-top: 160px;
 margin-bottom: -175px;
-font-size: 50px;
-font-family: 'LobsterTwo';
-font-weight: bold;
 }
 
 #salad{
-  border: 0px solid black;
-  background-image: url('../images/assets/salad_1.jpg');
-
+  border: 1px solid black;
+  background-image: url('../images/assets/board-2.jpg');
+}
+#saladpicture{
+  padding-top: 37px;
+  padding-right: 60px;
 }
 
 #wings{
   border: 1px solid black;
-  background-image: url('../images/assets/wings_1.jpg');
+  background-image: url('../images/assets/board-4.jpg');
+}
+#wingspicture{
+  padding-top: 36px;
+  padding-left: 15px;
+}
+#wingstext{
+padding-top: 25px;
+margin-bottom: -25px;
 }
 
 #drinks{
   border: 1px solid black;
-  background-image: url('../images/assets/drink.jpg');
+  background-image: url('../images/assets/board-5.jpg');
+}
+#drinkspicture{
+  padding-left: 35px;
 }
 
 .contact-us{
