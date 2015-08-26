@@ -105,16 +105,40 @@
 }
 
 #fullpizza {
-  background-image: url('../images/assets/fullpizza.jpg');
+  background-image: url('../images/assets/pizzaContacts.jpg');
+  margin-top: -30px;
+  background-size: cover;
+}
+
+.actionHeader{
+  font-size: 70px;
+  font-family: 'WisdomScript';
+  color: #fb4848;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 #store-hours {
   margin-top: 20px;
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 27%;
+  margin-right: -27%;
+}
+
+#contact-us{
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right:-15%;
 }
 
 #contactField {
   border-radius: 5px;
   padding-left: 5px;
   color: black;
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
 }
 
