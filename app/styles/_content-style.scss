@@ -9,7 +9,20 @@
 }
 
 .actionHeader {
+
+  font-size: 70px;
+  font-family: 'WisdomScript';
+  color: #fb4848;
+  padding-top: 50px;
+  padding-bottom: 30px;
   text-align: center;
+}
+
+.actionSubHeader {
+  font-size: 50px;
+  font-family: 'BenchNine';
+  text-align: center;
+  margin-top: -20px;
 }
 
 .board{
@@ -41,6 +54,7 @@
 .angular-google-map-container {
   height: 400px;
 }
+
 
 #pizza{
   border: 1px solid black;
@@ -110,13 +124,6 @@
   background-size: cover;
 }
 
-.actionHeader{
-  font-size: 70px;
-  font-family: 'WisdomScript';
-  color: #fb4848;
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
 
 #main-header {
   background-image: url('../images/assets/main-page-header.jpg');
@@ -124,7 +131,7 @@
   height: 100vh;
   justify-content: flex-start;
   align-items: flex-start;
-
+  background-size: cover;
   .header-text {
     padding-left: 15%;
     padding-top: 15%;
@@ -163,7 +170,7 @@
 }
 
 #colorMeRed{
-  color: '#df4441';
+  color: #fb4848;
 }
 
 #store-hours {
@@ -180,6 +187,8 @@
   font-size: 20px;
   margin-left: 15%;
   margin-right:-15%;
+  padding-right:-30px;
+  width:40%;
 }
 
 #contactField {
@@ -188,5 +197,45 @@
   color: black;
   font-family: 'BenchNine' sans-serif;
   font-size: 20px;
+  width:100%;
 }
 
+#joinButton{
+  color: white;
+  background: #fb4848;
+  border: none;
+  margin-top: 20px;
+  width: 300px !important;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#footerButton {
+  color: white;
+  background: #fb4848;
+  width: 100px;
+  border: none;
+  margin-top: 20px;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#middle-section-image{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:-50px;
+  margin-top: 40px;
+  width:80%;
+}
+
+#waterloo-location{
+  margin-top: -60px;
+  margin-left: 300px;
+}
+#toronto-location{
+  margin-top: -60px;
+  margin-left: 50px;
+}

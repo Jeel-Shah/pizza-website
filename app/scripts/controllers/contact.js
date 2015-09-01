@@ -4,10 +4,10 @@ angular.module('pizzaWebsiteApp')
   .controller('ContactCtrl', function($scope){
     $scope.map = {
       center: {
-        latitude: 45,
-        longitude: -73
+        latitude: 43.47133,
+        longitude: -80.54168
       },
-      zoom: 8,
+      zoom: 15,
       options: {
         scrollwheel: false,
         navigationControl: false,
@@ -16,4 +16,13 @@ angular.module('pizzaWebsiteApp')
         draggable: false
       }
     };
+
+    $scope.marker = {
+      id: 0,
+      coords: {
+        latitude: 43.47133,
+        longitude: -80.54168
+      }
+    };
+
 });
