@@ -118,6 +118,54 @@
   padding-bottom: 30px;
 }
 
+#main-header {
+  background-image: url('../images/assets/main-page-header.jpg');
+  margin-top: -30px;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .header-text {
+    padding-left: 15%;
+    padding-top: 15%;
+  }
+
+  h1 {
+    font-family: "BenchNine";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 72px;
+  }
+
+}
+
+#location-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url('../images/assets/board-4.jpg');
+  height: 250px;
+
+  p {
+    font-family: 'BenchNine';
+    font-size: 24px;
+    color: white;
+  }
+
+  h1 {
+    font-family: 'BenchNine';
+    font-size: 60px;
+    color: white;
+  }
+
+}
+
+#colorMeRed{
+  color: '#df4441';
+}
+
 #store-hours {
   margin-top: 20px;
   font-family: 'BenchNine' sans-serif;
