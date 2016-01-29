@@ -35,6 +35,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "_header-style.scss";
 @import "_content-style.scss";
 @import "_footer-style.scss";
+@import "_caro-style.scss";
+@import "wtf-forms.scss";
+
 @import url(http://fonts.googleapis.com/css?family=BenchNine);
 .browsehappy {
   margin: 0.2em 0;
@@ -62,25 +65,3 @@ h1 {
    position:relative;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}

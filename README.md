@@ -5,7 +5,6 @@ version 0.12.1.
 
 The website is for Orange Flames.
 
-Made by <a href="http://atlasdesigns.ca"> Atlas Media </a>
 
 ## Build & development
 

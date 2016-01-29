@@ -1,0 +1,248 @@
+// Partial which contains styles for the header
+.navbar-fixed-top {
+  min-height: 180px;
+  background-color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  border:black;
+}
+
+#main-list{
+  color: white;
+  margin-top:75px;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
+}
+
+#social{
+  width: 25px;
+}
+
+
+.social{
+  margin-right: 450px;
+}
+
+.mirrorSocial{
+  text-align: right;
+  margin-left: 350px;
+}
+
+#brand{
+  font-family: 'BenchNine', bold;
+  font-size: 30px;
+}
+
+
+
+#logo{
+  width : 100%;
+  margin: 0 auto;
+  margin-top:-55px;
+}
+
+#phoneNumber{
+  float: none;
+  color: white;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;;
+}
+
+#orderOnline{
+  color: white;
+  background: #fb4848;
+  width: 200px;
+  color: white;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  border:none;
+  }
+
+#logo-mobile{
+  width:180px;
+}
+
+@media screen and (min-width: 767px) {
+
+#phone-logo #mobile-logo{
+  display: none;
+}
+
+
+}
+@media screen and (max-width: 1900px) {
+  .social{
+    margin-right: 355px;
+  }
+
+  .mirrorSocial{
+    margin-left: 265px;
+  }
+
+}
+
+/*@media screen and (max-width: 1765px) {
+  .social{
+    margin-right: 300px;
+  }
+
+  .mirrorSocial{
+    margin-left: 300px;
+  }
+
+}*/
+
+@media screen and (max-width: 1717px) {
+  .social{
+    margin-right: 255px;
+  }
+
+  .mirrorSocial{
+    margin-left: 165px;
+  }
+
+}
+
+/*@media screen and (max-width: 1555px) {
+  .social{
+    margin-right: 200px;
+  }
+
+  .mirrorSocial{
+    margin-left: 200px;
+  }
+
+}
+*/
+@media screen and (max-width: 1515px) {
+  .social{
+    margin-right: 155px;
+  }
+
+  .mirrorSocial{
+    margin-left: 65px;
+  }
+
+
+}
+
+/*@media screen and (max-width: 1370px) {
+  .social{
+    margin-right: 100px;
+  }
+
+  .mirrorSocial{
+    margin-left: 100px;
+  }
+
+}*/
+
+@media screen and (max-width: 1315px) {
+  .social{
+    margin-right: 95px;
+  }
+
+  .mirrorSocial{
+    margin-left: 25px;
+  }
+
+}
+
+@media screen and (max-width: 1215px) {
+  .social{
+    margin-right: 80px;
+  }
+
+  .mirrorSocial{
+    margin-left: 25px;
+  }
+
+  #orderOnline{
+    width: 150px;
+  }
+
+}
+
+@media (max-width: 1159px) {
+  .navbar-toggle {
+    display: inline;
+  }
+
+  #box2 .logo{
+    display:none;
+  }
+
+  #box2 .facebook{
+    display:none;
+  }
+
+  #box2 .social{
+    display:none;
+  }
+
+  #box2 .mirrorSocial{
+    display:none;
+  }
+
+  #main-list{
+
+    color: black;
+    margin-top: 15px;
+  }
+
+  #list {
+    display: block;
+  }
+
+.navbar-fixed-top {
+  min-height: 105px;
+
+}
+
+}
+
+
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+
+  }
+
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+    a {
+
+      font-family: 'BenchNine', sans-serif;
+      color: white;
+      font-size:25px;
+
+        &:hover {
+          background: none;
+          text-shadow: 1px 0px 20px white;
+        }
+
+    }
+  }
+
+  // .navbar-nav > li.navbar-right {
+  //   float: right !important;
+  // }
+
+
+  .order-heading {
+    color: white;
+    font-family: 'BeachNine'
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
+
+}

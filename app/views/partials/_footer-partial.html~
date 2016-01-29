@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="row" id="footer-row">
+    <div class="col-md-3">
+      <h2 id="websiteName"> ORANGE FLAMES </h2>
+    </div>
+    <div class="col-md-3">
+      <ul class="footer-menu">
+        <li><a ng-href="/menu"> MENU </a></li>
+        <li><a ng-href="/location">LOCATION</a></li>
+        <li><a ng-href="/about">WHO WE ARE</a></li>
+        <li><a ng-href="/contact#gmap">CONTACT US </a></li>
+        <li><a ng-href="/hiring"> HIRING </a></li>
+        <li><a ng-href="homeState"> GALLERY</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <h2 id="storeHours"> Store Hours </h2> <table class="footerHours"> <tr> <td> Monday - Friday </td> <td> 10am - 2am </td> </tr>
+          <tr>
+            <td> Saturday </td>
+            <td> 11am - 1am </td>
+          </tr>
+          <tr>
+            <td> Sunday </td>
+            <td> 11am - Midnight </td>
+          </tr>
+        </table>
+    </div>
+    <div class="col-md-3">
+      <form role="form" class="newsletterForm">
+        <input id="connectField" type="text" placeholder="Connect with Us">
+      </form>
+      <button type="submit" class="btn btn-default" id="footerButton"> Join </button>
+    </div>
+  </div>
+  <div class="footer-f">
+
+  <div id="left-footer"><p><span class="glyphicon glyphicon-copyright-mark"></span> 2016 Orange Flame, Inc.</p></div>
+  <div id="centerMe"><p>Made with <span class="glyphicon glyphicon-heart"></span> by <a href="http://atlasdesigns.ca"> Atlas Media </a> </p></div>
+  <div id="right-footer"><p>Connect and spread the love<a class="link" href="#/"  ><img src="../images/icons/Twitter.png" id="social-f"></a> <a class="link" href="#/"  ><img src="../images/icons/instagram-xxl.png" id="social-f"></a> <a class="link" href="https://www.facebook.com/pages/Orange-Flame/347192305478723?sk=timeline"  ><img src="../images/icons/Facebook.png" id="social-f"></a></p></div>
+
+  </div>
+</div>

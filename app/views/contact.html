@@ -1,52 +1,53 @@
 <div class="board" id="fullpizza">
 </div>
-<div class="container-fluid">
-  <div class="row" style="height: 600px;">
-    <h1 class="actionHeader"> Reach Us </h1>
-    <div class="col-md-4" id="store-hours">
-      <h2> Store Hours </h2>
-      <table>
-        <tr>
-          <td> Monday - Friday </td>
-          <td> 10am - 2am </td>
-        </tr>
-        <tr>
-          <td> Saturday </td>
-          <td> 11am - 1am </td>
-        </tr>
-        <tr>
-          <td> Sunday </td>
-          <td> 11am - Midnight </td>
-        </tr>
-      </table>
-      <h2> Locations </h2>
-        <p> WATERLOO, ON </p>
-        <p> Linden Square <br/> 203 Lester St., at University Ave </p>
-        <br/>
-        <p> 519 888 9993 </p>
-    </div>
-    <div class="col-md-8" id="contact-us">
-      <form role="form">
-        <div class="form-group">
-          <input type="text" class="form-control" id="contactField" placeholder="Name">
-        </div>
-        <div class="form-group">
-          <input type="email" class="form-control" id="contactField" placeholder="Email">
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control" id="contactField" placeholder="Subject">
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" rows="5" placeholder="Message" id="contactField"></textarea>
-        </div>
-        <button type="submit" class="btn btn-default" id="joinButton">Submit</button>
-      </form>
-    </div>
-  </div>
+<h1 class="actionHeader"> Reach Us </h1>
+
+<div class="contact-info">
+<div id="store-hours">
+  <h2> Store Hours </h2>
+  <table>
+    <tr>
+      <td> Monday - Friday </td>
+      <td> 10am - 2am </td>
+    </tr>
+    <tr>
+      <td> Saturday </td>
+      <td> 11am - 1am </td>
+    </tr>
+    <tr>
+      <td> Sunday </td>
+      <td> 11am - Midnight </td>
+    </tr>
+  </table>
+  <h2> Locations </h2>
+    <p> WATERLOO, ON </p>
+    <p> Linden Square <br/> 203 Lester St., at University Ave </p>
+    <br/>
+    <p> 519 888 9993 </p>
 </div>
+<div id="contact-us">
+  <form role="form" id="gmap">
+    <div class="form-group">
+      <input type="text" class="form-control" id="contactField" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <input type="email" class="form-control" id="contactField" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="contactField" placeholder="Subject">
+    </div>
+    <div class="form-group">
+      <textarea class="form-control" rows="5" placeholder="Message" id="contactField"></textarea>
+    </div>
+    <button type="submit" class="btn btn-default" id="joinButton">Submit</button>
+  </form>
+</div>
+</div>
+
 <ui-gmap-google-map center='map.center' zoom='map.zoom' draggable="false" options="map.options">
   <ui-gmap-marker coords="marker.coords" idKey="marker.id"></ui-gmap-marker>
 </ui-gmap-google-map>
+
 <div class="board" id="slice-section">
   <h1> VISIT AND HAVE A SLICE WITH US! </h1>
 </div>

@@ -1,0 +1,665 @@
+.content {
+  height: 100%;
+}
+
+.container {
+  width: 60%;
+}
+
+.actionHeader {
+
+  font-size: 70px;
+  font-family: 'WisdomScript';
+  color: #fb4848;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.actionSubHeader {
+  font-size: 50px;
+  font-family: 'BenchNine';
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.board{
+  height: 500px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: 'LobsterTwo';
+  font-weight: bold;
+}
+
+.order-heading{
+  font-size: 50px;
+  font-family: 'LobsterTwo';
+  font-weight: bold;
+}
+
+.form-control {
+  width:65%;
+}
+
+.angular-google-map-container {
+  height: 400px;
+}
+
+
+#pizza{
+  background-image: url('../images/assets/board-3.jpg');
+  height: 647px;
+  margin-top: -30px;
+}
+
+#pizzapicture{
+  padding-top: 193px;
+}
+
+#pizzatext{
+  padding-top: 160px;
+  margin-bottom: -175px;
+}
+
+#salad{
+  background-image: url('../images/assets/board-2.jpg');
+}
+
+#saladpicture{
+  padding-top: 37px;
+  padding-right: 60px;
+}
+
+#wings{
+  background-image: url('../images/assets/board-4.jpg');
+}
+
+#wingspicture{
+  padding-top: 36px;
+  padding-left: 15px;
+}
+
+#wingstext{
+  padding-top: 25px;
+  margin-bottom: -25px;
+}
+
+#drinks{
+  background-image: url('../images/assets/board-5.jpg');
+}
+
+#drinkspicture{
+  padding-left: 35px;
+}
+
+#slice-section {
+  background-image: url('../images/assets/board-4.jpg');
+  height: 250px;
+  padding-top: 0;
+  h1 {
+    color: white;
+    font-family: 'BenchNine';
+    font-weight: bold;
+    font-size: 72px;
+  }
+}
+
+#fullpizza {
+  background-image: url('../images/assets/pizzaContacts.jpg');
+  margin-top: -30px;
+  background-size: cover;
+}
+
+
+#main-header {
+  background-image: url('../images/assets/slider-pizza.png');
+  // margin-top: -30px;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-size: cover;
+
+  .header-text {
+    padding-left: 15%;
+    padding-top: 17%;
+  }
+
+  h1 {
+    font-family: "BenchNine";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 72px;
+  }
+
+}
+
+#about-header {
+  background-image: url('../images/assets/aboutus.jpg');
+  // margin-top: -30px;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-size: cover;
+
+  .header-text {
+    padding-left: 15%;
+    padding-top: 15%;
+  }
+
+  h1 {
+    font-family: "BenchNine";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 72px;
+  }
+
+}
+
+  h1 {
+    font-size: 40px;
+  }
+
+#location-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url('../images/assets/board-4.jpg');
+  height: 250px;
+
+  p {
+    font-family: 'BenchNine';
+    font-size: 24px;
+    color: white;
+  }
+
+  h1 {
+    font-family: 'BenchNine';
+    font-size: 60px;
+    color: white;
+  }
+
+}
+
+#colorMeRed{
+  color: #fb4848;
+}
+.contact-info{
+  width:700px;
+  margin:0 auto;
+}
+
+#store-hours {
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
+  width: 49%;
+  display:inline-block;
+}
+
+#contact-us{
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
+  width:49%;
+  display:inline-block;
+  padding-bottom: 120px;
+}
+
+#contactField {
+  border-radius: 5px;
+  padding-left: 5px;
+  color: black;
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
+  width:100%;
+}
+
+#joinButton{
+  color: white;
+  background: #fb4848;
+  border: none;
+  margin-top: 20px;
+  width: 300px !important;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#footerButton {
+  color: white;
+  background: #fb4848;
+  width: 100px;
+  border: none;
+  margin-top: 20px;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#middle-section-image{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:-50px;
+  margin-top: 60px;
+  width:80%;
+}
+
+#waterloo-location{
+  margin-top: 40px;
+  margin-left: 300px;
+}
+#toronto-location{
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.board {
+  color:white;
+}
+
+.about-info{
+  width:800px;
+  margin:0 auto;
+  padding-top:80px;
+  padding-bottom:80px;
+  height: 600px;
+}
+
+#about-image{
+  width:49%;
+  display:inline-block;
+  float: none;
+  margin-top: -40px;
+}
+
+#about-text {
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  width: 49%;
+  display:inline-block;
+  float: right;
+}
+
+
+
+@media screen and (max-width: 1090px) {
+
+#main-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 20%;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
+}
+
+#about-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 20%;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
+}
+
+/*.about-info{
+  width:325px;
+  margin:0 auto;
+  // border: 1px solid green;
+}*/
+
+/*#about-image{
+  width:100%;
+  float:none;
+  margin-left: 30px;
+  // border: 1px solid green;
+
+}
+
+
+#about-text {
+  width: 100%;
+  // border: 1px solid green;
+}*/
+
+
+}
+
+@media screen and (max-width: 810px) {
+
+
+.about-info{
+  width:300px;
+  margin:0 auto;
+  // border: 1px solid green;
+}
+#about-pic{
+  width: 280px;
+}
+
+#about-image{
+  width:100%;
+  float:none;
+  // border: 1px solid green;
+}
+
+
+#about-text {
+  width: 100%;
+  float:none;
+  // border: 1px solid green;
+  padding-bottom: 60px;
+}
+
+
+}
+
+@media screen and (max-width: 985px) {
+
+#toronto-location{
+  margin-left: 10px;
+}
+
+#waterloo-location{
+  margin-left: 200px;
+}
+
+}
+
+@media screen and (max-width: 835px) {
+#main-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 25%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+}
+
+#about-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 25%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+}
+
+}
+
+@media screen and (max-width: 730px) {
+#main-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 30%;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+}
+
+#about-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 30%;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+}
+
+}
+
+@media screen and (max-width: 710px) {
+
+#store-hours {
+  width: 100%;
+  display:inline-block;
+}
+
+.board {
+  color:white;
+}
+
+#contact-us{
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.contact-info{
+  width:300px;
+  margin:0 auto;
+}
+
+#slice-section{
+  h1 {
+    font-size: 50px;
+  }
+}
+
+#waterloo-location{
+  margin-left: 100px;
+}
+}
+
+@media screen and (max-width: 670px) {
+
+
+.image-menu{
+  width:200px;
+  margin:0 auto;
+}
+
+.image-menu1{
+  width:160px;
+  margin:0 auto;
+}
+
+.board{
+  height: 250px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.order-heading{
+  font-size: 30px;
+  font-family: 'LobsterTwo';
+  font-weight: bold;
+}
+
+#pizza{
+  padding-top: 115px;
+  height: 450px;
+}
+
+#drinkspicture{
+  padding-left: 35px;
+  margin-top: -20px;
+  -ms-transform: rotate(60deg); /* IE 9 */
+  -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+  transform: rotate(60deg);
+}
+
+#wingspicture{
+  padding-top: 35px;
+  padding-left: 0px;
+}
+
+#saladpicture{
+  padding-top: 47px;
+  padding-right: 30px;
+}
+
+#pizzapicture{
+  padding-top: 217px;
+}
+
+}
+
+@media screen and (max-width: 630px) {
+#main-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 35%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+}
+
+#about-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 35%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+}
+
+}
+
+@media screen and (max-width: 530px) {
+#main-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 40%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+#about-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 40%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+  #waterloo-location{
+  margin-left: 10px;
+  h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+
+#toronto-location{
+  h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+
+#joinButton{
+  width:200px !important;
+}
+}
+@media screen and (max-width: 465px) {
+#main-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 45%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+}
+
+#about-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 45%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+}
+
+}
+
+@media screen and (max-width: 410px) {
+#main-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 60%;
+  }
+
+}
+
+#about-header {
+  .header-text {
+    padding-left: 15%;
+    padding-top: 60%;
+  }
+
+}
+
+}
+
+/*  #aboutus {
+  background-image: url('../images/assets/aboutus.jpg');
+  background-size: cover;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-size: cover;
+
+  .header-text {
+    padding-left: 15%;
+    padding-top: 15%;
+  }
+
+  h1 {
+    font-family: "BenchNine";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 72px;
+  }
+
+}*/
+
+
+

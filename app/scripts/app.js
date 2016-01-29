@@ -21,29 +21,39 @@ angular
     'ui.router',
     'uiGmapgoogle-maps'
   ])
-  .config(function ($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/');
-    $stateProvider
-      .state('homeState', {
-        url: '/',
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+  .config(function ($routeProvider, $locationProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: "views/main.html",
+        controller: "MainCtrl"
       })
-      .state('aboutState', {
-        url: '/about',
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      .when('/about', {
+        templateUrl: "views/about.html",
+        controller: "AboutCtrl"
       })
-      .state('contactState', {
-        url: '/contact',
-        templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl',
-        controllerAs: 'contact'
+      .when('/contact', {
+        templateUrl: "views/contact.html",
+        controller: "ContactCtrl"
       })
-      .state('menuState', {
-        url: '/menu',
-        templateUrl: 'views/menu.html'
+      .when('/menu', {
+        templateUrl: "views/menu.html"
       })
+      .when('/hiring', {
+          templateUrl: "views/hiring.html"
+      })
+      .when('/gallery', {
+          templateUrl: "views/gallery.html"
+      })
+      .when('/checkout', {
+          templateUrl: "views/checkout.html"
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+
+      $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+      });
+
   });

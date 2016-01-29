@@ -1,0 +1,241 @@
+.content {
+  border: 1px solid black;
+  height: 100%;
+}
+
+.container {
+  border: 1px solid pink;
+  width: 60%;
+}
+
+.actionHeader {
+
+  font-size: 70px;
+  font-family: 'WisdomScript';
+  color: #fb4848;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.actionSubHeader {
+  font-size: 50px;
+  font-family: 'BenchNine';
+  text-align: center;
+  margin-top: -20px;
+}
+
+.board{
+  height: 500px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: 'LobsterTwo';
+  font-weight: bold;
+}
+
+.order-heading{
+  font-size: 50px;
+  font-family: 'LobsterTwo';
+  font-weight: bold;
+}
+
+.contact-us{
+  margin-top: 40px;
+}
+
+.form-control {
+  width:65%;
+}
+
+.angular-google-map-container {
+  height: 400px;
+}
+
+
+#pizza{
+  border: 1px solid black;
+  background-image: url('../images/assets/board-3.jpg');
+  height: 647px;
+  margin-top: -30px;
+}
+
+#pizzapicture{
+  padding-top: 193px;
+}
+
+#pizzatext{
+  padding-top: 160px;
+  margin-bottom: -175px;
+}
+
+#salad{
+  border: 1px solid black;
+  background-image: url('../images/assets/board-2.jpg');
+}
+
+#saladpicture{
+  padding-top: 37px;
+  padding-right: 60px;
+}
+
+#wings{
+  border: 1px solid black;
+  background-image: url('../images/assets/board-4.jpg');
+}
+
+#wingspicture{
+  padding-top: 36px;
+  padding-left: 15px;
+}
+
+#wingstext{
+  padding-top: 25px;
+  margin-bottom: -25px;
+}
+
+#drinks{
+  border: 1px solid black;
+  background-image: url('../images/assets/board-5.jpg');
+}
+
+#drinkspicture{
+  padding-left: 35px;
+}
+
+#slice-section {
+  background-image: url('../images/assets/board-4.jpg');
+  height: 250px;
+  padding-top: 0;
+  h1 {
+    color: white;
+    font-family: 'BenchNine';
+    font-weight: bold;
+    font-size: 72px;
+  }
+}
+
+#fullpizza {
+  background-image: url('../images/assets/pizzaContacts.jpg');
+  margin-top: -30px;
+  background-size: cover;
+}
+
+
+#main-header {
+  background-image: url('../images/assets/main-page-header.jpg');
+  margin-top: -30px;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-size: cover;
+  .header-text {
+    padding-left: 15%;
+    padding-top: 15%;
+  }
+
+  h1 {
+    font-family: "BenchNine";
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 72px;
+  }
+
+}
+
+#location-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url('../images/assets/board-4.jpg');
+  height: 250px;
+
+  p {
+    font-family: 'BenchNine';
+    font-size: 24px;
+    color: white;
+  }
+
+  h1 {
+    font-family: 'BenchNine';
+    font-size: 60px;
+    color: white;
+  }
+
+}
+
+#colorMeRed{
+  color: #fb4848;
+}
+
+#store-hours {
+  margin-top: 20px;
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 27%;
+  margin-right: -27%;
+}
+
+#contact-us{
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right:-15%;
+  padding-right:-30px;
+  width:40%;
+}
+
+#contactField {
+  border-radius: 5px;
+  padding-left: 5px;
+  color: black;
+  font-family: 'BenchNine' sans-serif;
+  font-size: 20px;
+  width:100%;
+}
+
+#joinButton{
+  color: white;
+  background: #fb4848;
+  border: none;
+  margin-top: 20px;
+  width: 300px !important;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#footerButton {
+  color: white;
+  background: #fb4848;
+  width: 100px;
+  border: none;
+  margin-top: 20px;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#middle-section-image{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:-50px;
+  margin-top: 40px;
+  width:80%;
+}
+
+#waterloo-location{
+  margin-top: -60px;
+  margin-left: 300px;
+}
+#toronto-location{
+  margin-top: -60px;
+  margin-left: 50px;
+}

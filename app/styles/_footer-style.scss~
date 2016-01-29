@@ -1,0 +1,364 @@
+.footer {
+  position: absolute;
+  height: 422px;
+  bottom: 0 px;
+  width: 100%;
+  background: #333333;
+  color: white;
+}
+
+.col-md-3 {
+  color: white;
+  color:white;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
+  text-align:left;
+}
+
+
+tr td:last-child {
+  padding-left: 25px;
+}
+
+#websiteName {
+  color: white;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 50px;
+  padding-left: 30px;
+}
+#storeHours{
+  font-size: 40px;
+}
+.footerHours {
+  color:white;
+  tr > td{
+    padding-bottom: 15px;
+  }
+}
+
+
+#footer-row {
+  margin-top: 105px;
+  height: 200px;
+}
+
+.newsletterForm {
+  padding-top: 20px;
+}
+
+#joinButton {
+  color: white;
+  background: #fb4848;
+  border: none;
+  margin-top: 20px;
+  width: 70px;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#connectField {
+  border-radius: 5px;
+  border: none;
+  padding-left: 5px;
+  color: black;
+  width: 250px;
+  height: 50px;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+}
+
+input:focus{
+  outline: none;
+}
+
+#social-f{
+  width: 20px;
+}
+
+
+.footer-f{
+  padding-top: 40px;
+  width:2800px;
+  margin:0 auto;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 18px;
+}
+
+#centerMe {
+  text-align: center;
+  width:33%;
+  display:inline-block;
+
+}
+
+#left-footer{
+  text-align: left;
+  width:33%;
+  display:inline-block;
+}
+
+#right-footer{
+  text-align: right;
+  width:33%;
+  display:inline-block;
+}
+
+// Placeholder text
+::-webkit-input-placeholder {
+  color: black;
+}
+
+:-moz-placeholder {
+  color: black;
+}
+
+::-moz-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
+}
+.footer-menu {
+  list-style-type: none;
+
+  padding-top: 17px;
+
+  a {
+    color: white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  li {
+    padding-bottom: 10px;
+  }
+
+}
+@media screen and (max-width: 2837px) {
+  .footer-f{
+    width:2500px;
+  }
+
+}
+
+@media screen and (max-width: 2510px) {
+  .footer-f{
+    width:2300px;
+  }
+
+}
+
+@media screen and (max-width: 2340px) {
+  .footer-f{
+    width:2100px;
+  }
+
+}
+
+@media screen and (max-width: 2140px) {
+  .footer-f{
+    width:1900px;
+  }
+
+}
+
+@media screen and (max-width: 1940px) {
+  .footer-f{
+    width:1600px;
+  }
+
+}
+
+@media screen and (max-width: 1640px) {
+  .footer-f{
+    width:1400px;
+  }
+
+}
+
+@media screen and (max-width: 1440px) {
+  .footer-f{
+    width:1100px;
+  }
+
+}
+
+@media screen and (max-width: 1140px) {
+  .footer-f{
+    width:1000px;
+  }
+
+}
+
+@media screen and (max-width: 1085px) {
+  .footer-f{
+    width:900px;
+  }
+
+  #connectField {
+  width: 200px;
+  height: 50px;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+}
+
+
+}
+
+@media screen and (max-width: 992px) {
+  #connectField {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    }
+
+  #websiteName {
+    font-size: 30px;
+    padding-left: 0px;
+  }
+
+  .footer-menu{
+    padding-left: 0px;
+  }
+
+  .col-md-3 {
+    color: white;
+    color:white;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 15px;
+  }
+
+  .footer {
+    height: 750px;
+  }
+
+  #centerMe {
+    text-align: center;
+    margin-top: 390px;
+  }
+  .footer-f{
+    padding-top: 10px;
+    width:910px;
+    margin:0 auto;
+  }
+
+  #centerMe {
+    text-align: right;
+    width:49.5%;
+
+  }
+
+  #left-footer{
+    text-align: left;
+    width:49.5%;
+
+  }
+
+  #right-footer{
+  display:none;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+  .footer-f{
+    width:870px;
+  }
+
+}
+
+@media screen and (max-width: 910px) {
+  .footer-f{
+    width:840px;
+  }
+
+}
+
+@media screen and (max-width: 876px) {
+  .footer-f{
+    width:780px;
+  }
+
+}
+
+@media screen and (max-width: 810px) {
+  .footer-f{
+    width:710px;
+  }
+
+}
+
+@media screen and (max-width: 748px) {
+  .footer-f{
+    width:650px;
+  }
+
+}
+
+@media screen and (max-width: 689px) {
+  .footer-f{
+    width:600px;
+  }
+
+}
+
+@media screen and (max-width: 636px) {
+  .footer-f{
+    width:570px;
+  }
+
+}
+
+@media screen and (max-width: 606px) {
+  .footer-f{
+    width:510px;
+  }
+
+}
+
+@media screen and (max-width: 548px) {
+  .footer-f{
+    width:480px;
+  }
+
+}
+
+@media screen and (max-width: 517px) {
+  .footer-f{
+    width:440px;
+  }
+
+}
+
+@media screen and (max-width: 478px) {
+  .footer-f{
+    width:400px;
+  }
+
+}
+
+@media screen and (max-width: 437px) {
+  .footer-f{
+    width:360px;
+  }
+
+}
+
+@media screen and (max-width: 401px) {
+  .footer-f{
+    width:320px;
+  }
+
+}
+
+@media screen and (max-width: 357px) {
+  .footer-f{
+    width:280px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 15px;
+  }
+
+}

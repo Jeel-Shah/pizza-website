@@ -1,0 +1,59 @@
+<div class="board" id="fullpizza">
+  <div class="header-text">
+    <h1> Checkout </h1>
+  </div>    
+</div>
+
+<div class="container">
+    <div class="col-md-6">
+        <h1> Pizza </h1>
+        <h2> Select Your Dough </h2> 
+        <form class="controls-stacked">
+            <label class="control radio">
+                <input type="radio">
+                <span class="control-indicator"></span>
+                Dough 1
+            </label>
+            <label class="control radio">
+                <input type="radio">
+                <span class="control-indicator"></span>
+                Dough 2
+            </label>
+            <label class="control radio">
+                <input type="radio">
+                <span class="control-indicator"></span>
+                Dough 3
+            </label> 
+        </form>
+        <h2> Select Your Toppings </h2> 
+        <label class="control checkbox">
+            <input type="checkbox">
+                <span class="control-indicator"></span>
+                Topping 1
+         </label>
+        <label class="control checkbox">
+            <input type="checkbox">
+                <span class="control-indicator"></span>
+                Topping 2
+         </label>
+        <label class="control checkbox">
+            <input type="checkbox">
+                <span class="control-indicator"></span>
+                Topping 3
+         </label>         
+    </div> 
+    
+    <div class="col-md-6">
+        <h1> Salad </h1>
+    </div> 
+
+    <div class="col-md-6">
+        <h1> Wings </h1>
+    </div> 
+
+    <div class="col-md-6">
+        <h1> Drinks and Desserts </h1>
+    </div> 
+    
+</div> <!--- Let's see how this works out -->
+
